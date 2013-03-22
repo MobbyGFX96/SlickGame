@@ -6,26 +6,23 @@ import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 
-/**
- * @author 'MobbyGFX
- */
-public class GameState extends BasicGameState {
+public class MenuState extends BasicGameState {
 
-	public static int stateId = 1;
-	
+	public static int stateId = 0;
+
 	public void init(GameContainer container, StateBasedGame game)
 			throws SlickException {
-		
+
 	}
 
 	public void render(GameContainer container, StateBasedGame game, Graphics g)
 			throws SlickException {
-		
+
 	}
 
 	public void update(GameContainer container, StateBasedGame game, int delta)
 			throws SlickException {
-		
+
 	}
 
 	public int getID() {
